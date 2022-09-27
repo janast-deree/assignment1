@@ -1,0 +1,32 @@
+.content {
+    padding: 20px;
+}
+
+.grid {
+    background-color: none;
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: 150px minmax(0, 1fr);
+}
+
+.grid-item {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+[type=button] {
+    grid-column: 2;
+}
+
+footer {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+li>ol {
+    list-style-type: lower-alpha;
+}
